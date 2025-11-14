@@ -2,6 +2,9 @@
 <project xmlns="http://lime.software/project/1.0.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://lime.software/project/1.0.2 http://lime.software/xsd/project-1.0.2.xsd">
 
+	<!-- Removes deprecation warnings when compiling the game -->
+	<haxedef name="no-deprecation-warnings" />
+
 	<!-- _________________________ Application Settings _________________________ -->
 
 	<app title="MonsterMind" file="MonsterMind" main="Main" version="1.10.7-UNSTABLE" company="HaxeFlixel"/>

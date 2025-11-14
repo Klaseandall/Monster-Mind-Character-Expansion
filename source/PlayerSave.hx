@@ -247,13 +247,13 @@ class PlayerSave
 		saveData.lucaReservoir = PlayerData.lucaReservoir;
 		saveData.lucaToyReservoir = PlayerData.lucaToyReservoir;
 
-		saveData.zangooseSexyRecords = PlayerData.zangooseSexyRecords;
-		saveData.zangooseChats = PlayerData.zangooseChats;
-		saveData.zangooseSexyBeforeChat = PlayerData.zangooseSexyBeforeChat;
-		saveData.zangooseSexyAfterChat = PlayerData.zangooseSexyAfterChat;
-		saveData.zangooseMale = PlayerData.zangooseMale;
-		saveData.zangooseReservoir = PlayerData.zangooseReservoir;
-		saveData.zangooseToyReservoir = PlayerData.zangooseToyReservoir;
+		// saveData.zangooseSexyRecords = PlayerData.zangooseSexyRecords;
+		// saveData.zangooseChats = PlayerData.zangooseChats;
+		// saveData.zangooseSexyBeforeChat = PlayerData.zangooseSexyBeforeChat;
+		// saveData.zangooseSexyAfterChat = PlayerData.zangooseSexyAfterChat;
+		// saveData.zangooseMale = PlayerData.zangooseMale;
+		// saveData.zangooseReservoir = PlayerData.zangooseReservoir;
+		// saveData.zangooseToyReservoir = PlayerData.zangooseToyReservoir;
 
 		saveData.professors = PlayerData.professors;
 		saveData.prevProfPrefix = PlayerData.prevProfPrefix;
@@ -463,7 +463,7 @@ class PlayerSave
 		PlayerData.zangChats = def(saveData.zangChats, [0, 999]); // TODO: Set to actual dialog IDs when ZangooseDialog is implemented
 		PlayerData.zangSexyBeforeChat = def(saveData.zangSexyBeforeChat, 99);
 		PlayerData.zangSexyAfterChat = def(saveData.zangSexyAfterChat, 99);
-		PlayerData.zangMale = def(saveData.zangMale, PlayerData.zangooseDefaultMale);
+		// PlayerData.zangMale = def(saveData.zangMale, PlayerData.zangooseDefaultMale);
 		PlayerData.zangReservoir = def(saveData.zangReservoir, 55); // TODO: Set to desired default horniness level
 		PlayerData.zangToyReservoir = def(saveData.zangToyReservoir, -1);
 
